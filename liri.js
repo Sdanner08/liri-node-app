@@ -1,10 +1,12 @@
 require("dotenv").config();
+var spotify = new Spotify(keys.spotify);
+var client = new Twitter(keys.twitter);
 
 
-* `my-tweets`
+// * `my-tweets`
 
-* `spotify-this-song`
+// * `spotify-this-song`
 
-* `movie-this`
+// * `movie-this`
 
-* `do-what-it-says`
+// * `do-what-it-says`
